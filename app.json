@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/money/money",
+    "pages/person_center/person_center",
+    "pages/questionnaire/questionnaire",
+    "pages/task/task",
+    "pages/group/group",
+    "pages/shop/shop",
+    "pages/goldpage1/goldpage1",
+    "pages/goldpage2/goldpage2",
+    "pages/goldpage3/goldpage3",
+    "pages/honest_recoding/honest_recoding"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "互助大厅",
+        "iconPath": "/images/icon_hall.jpg"
+      },
+      {
+        "pagePath": "pages/money/money",
+        "text": "金币记录",
+        "iconPath": "/images/icon_transaction.jpg"
+      },
+      {
+        "pagePath": "pages/person_center/person_center",
+        "text": "个人中心",
+        "iconPath": "/images/icon_personal_center.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

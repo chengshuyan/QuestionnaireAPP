@@ -1,0 +1,55 @@
+<view class="view_background">
+<image class="image" src="/images/icon_personal_center.jpg"/>
+<text class = "text_title">用户名</text>
+<text class = "text" decode = 'true'> &emsp;&emsp;&emsp;&emsp;活跃度 </text>
+<text class = "text_number">{{liveness}}</text>
+<text class = "text" decode = 'true'>&emsp;&emsp;用户等级 </text>
+<text class = "text_number">{{level}}</text>
+<progress class="progress" percent="{{honest_level}}" color="red" border-radius="360" stroke-width="12"/>
+
+<text class = "text" decode = 'true'> &emsp;诚信指数 </text>
+<text class = "text_number">{{honest_level}}/100</text>
+<text class = "text" decode = 'true' bindtap="goto_honest_recoding" > &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;诚信记录</text>
+
+<view>
+<text class = "text" decode = 'true'> &emsp;我的金币 </text>
+<text class = "text_number">{{gold_coin}}</text>
+<text id = "1" class = "text" decode = 'true' bindtap="goto_goldpage">&emsp;金币获取</text>
+<text id = "2" class = "text" decode = 'true' bindtap="goto_goldpage">&emsp;金币兑换</text>
+<text id = "3" class = "text" decode = 'true' bindtap="goto_goldpage">&emsp;金币预支与归还</text>
+</view>
+</view>
+
+<view  stytle=" overflow-x: hidden; overflow-y: auto;">
+<view  class="item">
+    <view class="item_left" class="top_image">
+        <image id = '1' src="/images/icon_honey_pink.jpg" class="image" bindtap="goto_my_questionnaire"/>
+        <view class="mark" ><text class="text" bindtap="goto_my_questionnaire">我的问卷</text></view>
+    </view>
+    <view class="item_right" class="top_image">
+        <image id = '2' src="/images/icon_honey_blue.jpg" class="image" bindtap="goto_task"/>
+        <view class="mark" ><text class="text" bindtap="goto_task">我的任务</text></view>
+    </view>
+    <view class="item_right" class="top_image">
+        <image id = '3' src="/images/icon_honey_green.jpg" class="image" bindtap="goto_group"/>
+        <view class="mark" ><text class="text" bindtap="goto_group">我的小组</text></view>
+    </view>
+    <view class="item_right" class="top_image">
+        <image id = '4' src="/images/icon_honey_purple.jpg" class="image" bindtap="goto_shop"/>
+        <view class="mark" ><text class="text" bindtap="goto_shop">调易商店</text></view>
+    </view>
+</view>
+<swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" vertical="{{isVertical}}" duration="{{duration}}" circular='false'>
+  <swiper-item wx:for="{{imgUrls}}">
+    <image src="{{item}}" />
+  </swiper-item>
+</swiper>
+<button><text class = "text">线下互助群等你来加！</text></button>
+<view>
+<swiper class="swiper_ad" indicator-dots="{{indicatorDots_ad}}" autoplay="{{autoplay_ad}}" interval="{{interval_ad}}" vertical="{{isVertical}}" duration="{{duration_ad}}" circular='false'>
+  <swiper-item wx:for="{{imgUrls_ad}}">
+    <image src="{{item}}" />
+  </swiper-item>
+</swiper>
+</view>
+</view>
