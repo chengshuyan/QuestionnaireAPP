@@ -10,7 +10,8 @@
     "pages/goldpage1/goldpage1",
     "pages/goldpage2/goldpage2",
     "pages/goldpage3/goldpage3",
-    "pages/honest_recoding/honest_recoding"
+    "pages/honest_recoding/honest_recoding",
+    "pages/template/template"
   ],
   "tabBar": {
     "list": [

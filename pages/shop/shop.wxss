@@ -1,1 +1,99 @@
 /* pages/shop/shop.wxss */
+.title1
+{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+/* pages/goldpage1/goldpage1.wxss */
+
+.item-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4rpx;
+  margin-top:10rpx;
+  margin-left: 10rpx;
+  margin-bottom: 13rpx;
+  margin-right: 10rpx;
+}
+
+.item-left-user{
+    margin-left:10rpx;
+    display:table-cell;
+}
+.item-middle-user{
+    flex:1;
+    margin-right:10rpx;
+    display: table-cell;
+}
+.item-middle-user1{
+    margin-right:10rpx;
+    display: table-cell;
+}
+.item-right-user{
+    display: block;
+    margin-top: 10rpx;
+}
+
+.view-class
+{
+  background-color:rgb(242, 242, 250);
+  margin-right:10rpx;
+  margin-left:10rpx;
+}
+
+.title
+{
+  background-color:rgb(165, 205, 252); 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4rpx;
+  margin-bottom: 13rpx;
+}
+
+.content-text
+{
+  line-height: 10rpx;
+  font-size:32rpx;
+}
+.content-text1
+{
+  line-height: 10rpx;
+  font-size:32rpx;
+  color:red;
+}
+.content-view
+{
+  background-color: white;
+  margin-top:10rpx;
+  margin-right:10rpx;
+  margin-left:10rpx;
+  margin-bottom: 10rpx;
+}
+
+.top_image{
+    display: table-column
+}
+
+.image_icon{
+    width: 44rpx; 
+    height: 44rpx;
+    border-radius: 44rpx; 
+    margin-left: 25rpx;
+    background-color: #eeeeee;
+}
+.image_icon1{
+    width: 44rpx; 
+    height: 44rpx;
+    border-radius: 44rpx; 
+    margin-left: 100rpx;
+    background-color: #eeeeee;
+}
+.text{
+  color: #000000;
+  line-height:2rpx;
+  font-size: 24rpx;
+}

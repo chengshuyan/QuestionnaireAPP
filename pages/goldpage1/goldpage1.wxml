@@ -1,2 +1,28 @@
 <!--pages/goldpage1/goldpage1.wxml-->
-<text>pages/goldpage1/goldpage1.wxml</text>
+<view>
+  <view class="item-user">
+    <view  class="item-left-user"><image class = "image" src="/images/gold.jpg"></image></view>
+    <view  class="item-middle-user">
+      <text>我的金币 </text>
+      <text class = "number">{{gold}}</text>
+    </view>
+  </view>
+  <view class="view-class">
+    <view class="title">我要免费获取金币</view>
+      <view class="content-view">
+        <button bindtap="goto_task"><text class="content-text" >去互助大厅填写问卷</text></button>
+        <button bindtap="goto_task"><text class="content-text">邀请好友注册</text></button>
+        <button bindtap="goto_task"><text class="content-text">调易链接分享</text></button>
+        <button bindtap="goto_task"><text class="content-text">使用时长</text></button>
+        <button bindtap="goto_task"><text class="content-text">连续签到</text></button>
+    </view>
+  </view>
+    <view class="view-class">
+    <view class="title">我要充值金币</view>
+      <view class="content-view">
+        <view><text class="content_text">金币充值说明：</text></view>
+        <view class="view-position"><text class="content-text">1元 = 1金币</text></view>
+        <view class="view-position1"><text class="content-text1">去充值金币</text></view>
+    </view>
+  </view>
+</view>

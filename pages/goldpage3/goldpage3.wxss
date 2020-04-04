@@ -1,1 +1,97 @@
 /* pages/goldpage3/goldpage3.wxss */
+.image
+{
+    width: 55rpx; 
+    height: 60rpx;
+    border-radius: 44rpx; 
+    background-color: #eeeeee;
+}
+.number
+{
+  color:red;
+  font-size: 36rpx;
+}
+
+.number1
+{
+  color:rgba(255, 196, 0, 0.959);
+  font-size: 48rpx;
+}
+
+.item-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4rpx;
+  margin-left: 10px;
+  margin-bottom: 13rpx;
+  margin-right: 10px;
+  background-color:white;
+}
+
+.item-left-user{
+    margin-top: 10rpx;
+    display:table-cell;
+}
+.item-middle-user{
+    flex: 1;
+    margin-top: 10rpx;
+    margin-left: 10rpx;
+    display:table-cell;
+}
+
+.background
+{
+  background-color: rgb(165, 205, 252);
+  margin-left:10rpx;
+  margin-right:10rpx;
+}
+
+.content-center
+{
+  display:flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.button-class
+{
+  width:fit-content;
+  height: fit-content;
+  margin-top:100rpx;
+}
+.text
+{
+  color:rgb(165, 205, 252);
+  font-size:32rpx;
+}
+.text1
+{
+  font-size:32rpx;
+}
+
+.row-view
+{
+  display:flex;
+  align-items:center;
+  justify-content: center;  
+  margin-top:10rpx;
+  border-color:red;
+  border-width:10rpx;
+  background-color:white;
+  margin-left:33rpx;
+  margin-right:33rpx;
+  border-radius: 10rpx;
+  height:92rpx;
+}
+.button-left
+{
+  align-items:center;
+  justify-content: center; 
+}
+
+.button-bottom
+{
+  margin-left:40rpx;
+  margin-right:40rpx;
+}

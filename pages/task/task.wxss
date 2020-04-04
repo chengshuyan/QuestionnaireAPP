@@ -1,1 +1,195 @@
 /* pages/task/task.wxss */
+
+page{
+  height:100%;
+  width:100%
+}
+
+.image{
+    width: 88rpx; 
+    height: 88rpx;
+    border-radius: 44rpx; 
+    background-color: #eeeeee;
+}
+.view_class
+{
+  background-color:rgb(242, 242, 250);
+  margin-right:10px;
+  margin-left:10px;
+}
+
+.view_class_bottom
+{
+  background-color:rgb(242, 242, 250);
+  margin-right:10px;
+  margin-left:10px;
+  margin-bottom:128rpx;
+}
+
+.title
+{
+  background-color:rgb(165, 205, 252); 
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  width: 100%;
+  height: 100%;
+}
+.myview
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  width: 100%;
+  height: 100%;
+}
+.right_down
+{
+  margin-left:240px;
+  line-height:10rpx;
+  font-size: 24rpx;
+  margin-top:50rpx;
+  margin-bottom:20rpx;
+}
+.content_text
+{
+  line-height: 10rpx;
+  font-size:32rpx;
+}
+
+.content_view
+{
+  border-width: 10px;
+  border-color:red;
+  background-color: white;
+  margin-top:10px;
+  margin-right:10px;
+  margin-left:10px;
+  margin-bottom: 10px;
+}
+
+.top_image{
+    display: table-column
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4rpx;
+  margin-left: 68rpx;
+  margin-bottom: 13rpx;
+  margin-right: 68rpx;
+  background-color:white;
+}
+.item-left{
+    margin-top: 10rpx;
+    display:table-cell;
+}
+.item-middle{
+    flex: 1;
+    margin-top: 10rpx;
+    display:table-cell;
+}
+.item-right{
+    display: block;
+    margin-top: 10rpx;
+}
+
+.text{
+  color: #000000;
+  line-height:2rpx;
+  font-size: 24rpx;
+}
+
+.Scancode {
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/* 横着的分割View样式 */
+/*分割线样式*/
+.divLine{
+ background: #E0E3DA;
+ width: 100%;
+ height: 0.2rpx;
+}
+
+.image_icon{
+    width: 44rpx; 
+    height: 44rpx;
+    border-radius: 44rpx; 
+    margin-left: 10px;
+    background-color: #eeeeee;
+}
+
+.swiper {
+  height: 400rpx;
+}
+
+.swiper_ad {
+  height: 400rpx;
+}
+
+swiper-item image {
+  width: 100%;
+  height: 100%;
+}
+.item_user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4rpx;
+  margin-left: 10px;
+  margin-bottom: 13rpx;
+  margin-right: 10px;
+  background-color:white;
+}
+
+.item-left-user{
+    margin-top: 10rpx;
+    display:table-cell;
+}
+.item-middle-user{
+    flex: 1;
+    margin-top: 10rpx;
+    margin-left: 60rpx;
+    display:table-cell;
+}
+.dots{  
+  width: 156rpx;
+  height: 36rpx; 
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 10rpx;
+  margin-top:25rpx;
+}  
+/*未选中时的小圆点样式 */
+.dot{  
+  width: 10rpx;  
+  height: 10rpx;   
+  border-radius: 50%;
+  margin-right: 26rpx;
+  background-color: rgba(191, 232, 245, 0.781);
+}  
+/*选中以后的小圆点样式  */
+.active{  
+  width: 20rpx;   
+  height: 10rpx;
+  background-color: rgb(95, 178, 226);
+}  
+.wrap{
+  height: auto;
+  position: relative;  
+}
+
+.gold_text
+{
+  color:red;
+}
+
+.page_design
+{
+  flex-direction: column;
+}

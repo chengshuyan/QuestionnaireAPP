@@ -1,2 +1,66 @@
 <!--pages/task/task.wxml-->
-<text>pages/task/task.wxml</text>
+<view  class="page_design">
+<view class="item_user">
+  <view class="item-left-user">
+    <image class="image" src="/images/icon_personal_center.jpg"/>
+    <text class = "text_title">用户名</text>
+  </view>
+  <view class="item-middle-user">
+    <text>已有金币数:{{haven_gold}}
+    </text>
+    <text class="gold_text">临期归还金币数:{{should_back_gold}}</text>
+  </view>
+</view>
+<view class="view_class">
+<view class="title">可填问卷</view>
+<view class="wrap">
+<swiper class="swiper" autoplay="{{autoplay}}" interval="{{interval}}" vertical="{{isVertical}}" duration="{{duration}}" current="{{currentSwiper}}" bindchange="swiperChange" circular='false'>
+  <swiper-item wx:for="{{imgUrls}}">
+    <image src="{{item}}" />
+  </swiper-item>
+</swiper>
+ <view class="dots">  
+        <block wx:for="{{imgUrls}}">  
+            <view class="dot{{index == currentSwiper ? ' active' : ''}}"></view>  
+        </block>  
+    </view>  
+</view>
+<view class="right_down"  bindtap="goto_task">>>进入问卷大厅</view>
+</view>
+<view class="view_class">
+<view class="title">主题问卷专区</view>
+<view class="content_view">
+<button bindtap="goto_task"><text class="content_text" >毕业设计专区</text></button>
+<button bindtap="goto_task"><text class="content_text">市场调研大赛专区</text></button>
+<button bindtap="goto_task"><text class="content_text">创业比赛专区</text></button>
+</view>
+</view>
+<view class="view_class_bottom">
+<view class="title">其他任务</view>
+<view class="content_view">
+<view bindtap="goto_task">邀请好友获取金币</view>
+<view bindtap="goto_task">连续签到获取金币</view>
+<view bindtap="goto_task">分享链接获取金币</view>
+</view>
+</view>
+<view  stytle=" overflow-x: hidden; overflow-y: auto;" class='Scancode'>
+<view class="container">
+     <!-- 分割线 -->
+  <view class="divLine"></view>
+</view>
+<view  class="item">
+    <view class="item_left" class="top_image">
+        <image id = '2' src="/images/hall.jpg" class="image_icon" bindtap="goto_task"/>
+        <view class="mark" ><text class="text" bindtap="goto_task">调易大厅</text></view>
+    </view>
+    <view class="item_middle" class="top_image">
+        <image id = '3' src="/images/track.jpg" class="image_icon" bindtap="goto_task"/>
+        <view class="mark" ><text class="text" bindtap="goto_task">任务记录</text></view>
+    </view>
+    <view class="item_right" class="top_image">
+        <image id = '4' src="/images/myperson.jpg" class="image_icon" bindtap="goto_person"/>
+        <view class="mark" ><text class="text" bindtap="goto_person">个人中心</text></view>
+    </view>
+</view>
+</view>
+</view>

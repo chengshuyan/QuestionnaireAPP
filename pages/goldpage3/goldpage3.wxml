@@ -1,2 +1,23 @@
 <!--pages/goldpage3/goldpage3.wxml-->
-<text>pages/goldpage3/goldpage3.wxml</text>
+<view>
+  <view class="item-user">
+    <view  class="item-left-user"><image class = "image" src="/images/gold.jpg"></image></view>
+    <view  class="item-middle-user">
+      <text>我的金币 </text>
+      <text class = "number">{{gold}}</text>
+    </view>
+  </view>
+  <view class="background">
+    <view class="content-center">当前剩余应还(金币数)</view>
+    <view class="content-center"><text class="number1">{{should_back_gold}}</text></view>
+    <view class="content-center">{{ddl_month}}月{{ddl_date}}日前还款，最低还款100金币</view>
+    <button class="button-class"><text class="text">立即归还</text></button>
+    <view class="row-view">
+      <text class="text1" decode="{{true}}">我的账单&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;</text>
+      <text>可用额度</text>
+    </view>
+  </view>
+  <view>
+    <button class="button-bottom"><text class="text1">金币预支与归还记录</text></button>
+  </view>
+ </view> 

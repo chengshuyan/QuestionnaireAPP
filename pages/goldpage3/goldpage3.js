@@ -5,7 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    gold:120,
+    should_back_gold:350,
+    ddl_month:3,
+    ddl_date:10
   },
 
   /**

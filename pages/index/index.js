@@ -1,3 +1,4 @@
+var app = getApp()
 Page({
   data: {
     // banner
@@ -68,6 +69,6 @@ goto_my_questionnaire:function(event){
       url: url
     })
   },
-durationChange: function (e){
+  durationChange: function (e){
   }
 })
