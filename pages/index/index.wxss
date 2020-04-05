@@ -10,15 +10,15 @@ page{
   flex-direction: row;
   justify-content: space-between;
   padding: 8rpx;
-  margin-left: 68rpx;
+  margin-top:30rpx;
+  margin-left: 10rpx;
   margin-bottom: 13rpx;
-  margin-right: 72rpx;
-  background-color: #fff;
+  margin-right: 10rpx;
+  background-color: white;
 }
 .item-left{
     margin-top: 10rpx;
     display:table-cell;
-
 }
 .item-middle{
     flex: 1;
@@ -33,29 +33,24 @@ page{
 }
 .text{
   color: #000000;
-  font-family:"幼圆";
-  font-weight:bold;
   line-height: 10rpx;
   font-size: 28rpx;
 }
 .text_title{
   color: #000000;
-  font-family:"幼圆";
-  font-weight:bold;
   line-height: 10rpx;
   font-size: 36rpx;
 }
 .text_number{
   color: #f58403;
-  font-family:"幼圆";
   font-weight:bold;
   line-height: 10rpx;
   font-size: 36rpx;
 }
 .image{
-    width: 88rpx; 
-    height: 88rpx;
-    border-radius: 44rpx; 
+    width: 125rpx; 
+    height: 100rpx;
+    border-radius: 0rpx; 
     background-color: #eeeeee;
 }
 /* 直接设置swiper属性 */
@@ -73,6 +68,47 @@ swiper-item image {
   height: 100%;
 }
 
-.view_background{
-  background-color: #9da1ad
+.view-background{
+  background-color: white;
+  margin-top:0rpx;
+}
+.background{
+  background-color: rgb(165, 205, 252);
+}
+.button-class
+{
+  margin-top:20rpx;
+  margin-left:10rpx;
+  margin-right:10rpx;
+}
+
+view.search {
+    display: flex;
+    flex-direction: row;
+    height: 98rpx;
+    background: rgb(165, 205, 252);
+    align-items: center;
+}
+
+view.searchItem {
+    display: flex;
+    width: 100%;
+    background: #fff;
+    flex-direction: row;
+    border-radius: 10rpx;
+    margin-right: 20rpx;
+    margin-left: 20rpx;
+}
+
+view.searchItem image {
+    height: 42rpx;
+    width: 42rpx;
+    align-self: center;
+    margin-left: 10rpx;
+    margin-right: 20rpx;
+}
+
+view.searchItem input {
+    flex: 1;
+    font-size: 30rpx;
 }

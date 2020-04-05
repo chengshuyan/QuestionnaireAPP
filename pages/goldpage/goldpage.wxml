@@ -1,0 +1,23 @@
+<!--pages/goldpage/goldpage.wxml-->
+<text>pages/goldpage/goldpage.wxml</text>
+<view class="view_background"> 
+<image class="image" src="/images/icon_personal_center.jpg"/> 
+<text class = "text_title">用户名</text> 
+<text class = "text" decode = 'true'> &emsp;&emsp;&emsp;&emsp;活跃度 </text> 
+<text class = "text_number">{{liveness}}</text> 
+<text class = "text" decode = 'true'>&emsp;&emsp;用户等级 </text> 
+<text class = "text_number">{{level}}</text> 
+<progress class="progress" percent="{{honest_level}}" color="red" border-radius="360" stroke-width="12"/> 
+ 
+<text class = "text" decode = 'true'> &emsp;诚信指数 </text> 
+<text class = "text_number">{{honest_level}}/100</text> 
+<text class = "text" decode = 'true' bindtap="goto_honest_recoding" > &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;诚信记录</text> 
+ 
+<view> 
+<text class = "text" decode = 'true'> &emsp;我的金币 </text> 
+<text class = "text_number">{{gold_coin}}</text> 
+<text id = "1" class = "text" decode = 'true' bindtap="goto_goldpage">&emsp;金币获取</text> 
+<text id = "2" class = "text" decode = 'true' bindtap="goto_goldpage">&emsp;金币兑换</text> 
+<text id = "3" class = "text" decode = 'true' bindtap="goto_goldpage">&emsp;金币预支与归还</text> 
+</view> 
+</view> 

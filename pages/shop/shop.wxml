@@ -8,18 +8,19 @@
     </view>
     <view  class="item-user">
       <view class="item_left-user" class="top_image">
-        <image id = '2' src="/images/hall.jpg" class="image_icon" bindtap="goto_task"/>
+        <image id = '2' src="/images/coupon.jpg" class="image_icon" bindtap="goto_task"/>
         <view class="mark" ><text class="text" bindtap="goto_task">会员优惠券</text></view>
         <view class="mark" ><text class="text" bindtap="goto_task">5金币</text></view>
       </view>
       <view class="item_middle-user" class="top_image">
-        <image id = '3' src="/images/track.jpg" class="image_icon" bindtap="goto_task"/>
+        <image id = '3' src="/images/coupon.jpg" class="image_icon" bindtap="goto_task"/>
         <view class="mark" ><text class="text" bindtap="goto_task">首页推荐券</text></view>
         <view class="mark" ><text class="text" bindtap="goto_task">4金币</text></view>
        </view>
       <view class="item_right-user" class="top_image">
-        <image id = '4' src="/images/myperson.jpg" class="image_icon1" bindtap="goto_person"/>
-        <view class="mark" ><text class="text" bindtap="goto_person">问卷加速回收券</text></view>
+        <image id = '4' src="/images/coupon.jpg" class="image_icon1" bindtap="goto_person"/>
+        <view class="mark" ><text class="text" bindtap="goto_person">问卷加速
+                                                                      回收券</text></view>
         <view class="mark" ><text class="text" bindtap="goto_person">9金币</text></view>
       </view>
     </view>
@@ -31,17 +32,17 @@
     </view>
     <view  class="item-user">
       <view class="item_left-user" class="top_image">
-        <image id = '2' src="/images/hall.jpg" class="image_icon" bindtap="goto_task"/>
+        <image id = '2' src="/images/coupon.jpg" class="image_icon" bindtap="goto_task"/>
         <view class="mark" ><text class="text" bindtap="goto_task">优酷会员</text></view>
         <view class="mark" ><text class="text" bindtap="goto_task">8金币</text></view>
       </view>
       <view class="item_middle-user" class="top_image">
-        <image id = '3' src="/images/track.jpg" class="image_icon" bindtap="goto_task"/>
+        <image id = '3' src="/images/coupon.jpg" class="image_icon" bindtap="goto_task"/>
         <view class="mark" ><text class="text" bindtap="goto_task">腾讯会员</text></view>
         <view class="mark" ><text class="text" bindtap="goto_task">8金币</text></view>
        </view>
       <view class="item_right-user" class="top_image">
-        <image id = '4' src="/images/myperson.jpg" class="image_icon" bindtap="goto_person"/>
+        <image id = '4' src="/images/coupon.jpg" class="image_icon" bindtap="goto_person"/>
         <view class="mark" ><text class="text" bindtap="goto_person">手机流量</text></view>
         <view class="mark" ><text class="text" bindtap="goto_person">8金币</text></view>
       </view>
@@ -54,17 +55,17 @@
     </view>
     <view  class="item-user">
       <view class="item_left-user" class="top_image">
-        <image id = '2' src="/images/hall.jpg" class="image_icon" bindtap="goto_task"/>
+        <image id = '2' src="/images/coupon.jpg" class="image_icon" bindtap="goto_task"/>
         <view class="mark" ><text class="text" bindtap="goto_task">清风纸巾</text></view>
         <view class="mark" ><text class="text" bindtap="goto_task">15金币</text></view>
       </view>
       <view class="item_middle-user" class="top_image">
-        <image id = '3' src="/images/track.jpg" class="image_icon" bindtap="goto_task"/>
+        <image id = '3' src="/images/coupon.jpg" class="image_icon" bindtap="goto_task"/>
         <view class="mark" ><text class="text" bindtap="goto_task">安慕希酸奶</text></view>
         <view class="mark" ><text class="text" bindtap="goto_task">35金币</text></view>
        </view>
       <view class="item_right-user" class="top_image">
-        <image id = '4' src="/images/myperson.jpg" class="image_icon" bindtap="goto_person"/>
+        <image id = '4' src="/images/coupon.jpg" class="image_icon" bindtap="goto_person"/>
         <view class="mark" ><text class="text" bindtap="goto_person">中性笔</text></view>
         <view class="mark" ><text class="text" bindtap="goto_person">10金币</text></view>
       </view>

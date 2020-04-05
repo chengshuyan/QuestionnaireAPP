@@ -1,2 +1,71 @@
 <!--pages/person_center/person_center.wxml-->
-<text>pages/person_center/person_center.wxml</text>
+<view class="background">
+  <view class="top">
+    <view class="userinfo">
+      <image class="image" src="/images/icon_personal_center.jpg" alt=""/>
+    </view>
+    <view class="name">
+      <label>{{username}}</label>
+      <view>{{something}}</view>
+    </view>
+  </view>
+
+  <view class="container">
+    <view class="row">
+      <label class="left">
+        <image class="img" src="/images/image1.jpg"/>
+      </label>
+      <label class="name1">我的项目</label>
+      <label class="right">
+        >
+      </label>
+    </view>
+    <view class="row">
+      <label class="left">
+        <image class="img" src="/images/group1.jpg"/>
+      </label>
+      <label class="name1"> 我的团队</label>
+      <label class="right">
+        >
+      </label>
+    </view>
+  </view>
+  <view class="container">
+    <view class="row" bindtap="goto_goldpage">
+      <label class="left">
+        <image class="img" src="/images/gold1.jpg"/>
+      </label>
+      <label class="name1"> 我的金币</label>
+      <label class="right">
+        >
+      </label>
+    </view>
+    <view class="row">
+      <label class="left">
+        <image class="img" src="/images/task1.jpg"/>
+      </label>
+      <label class="name1"> 我的任务</label>
+      <label class="right">
+         >
+      </label>
+    </view>
+        <view class="row">
+      <label class="left">
+        <image class="img" src="/images/image2.jpg"/>
+      </label>
+      <label class="name1"> 帮助与反馈</label>
+      <label class="right">
+        >
+      </label>
+    </view>
+    <view class="row">
+      <label class="left">
+        <image class="img" src="/images/image3.jpg"/>
+      </label>
+      <label class="name1"> 设置</label>
+      <label class="right">
+         >
+      </label>
+    </view>
+  </view>
+</view>

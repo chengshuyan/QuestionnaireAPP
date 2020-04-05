@@ -7,6 +7,7 @@
     "pages/task/task",
     "pages/group/group",
     "pages/shop/shop",
+    "pages/goldpage/goldpage",
     "pages/goldpage1/goldpage1",
     "pages/goldpage2/goldpage2",
     "pages/goldpage3/goldpage3",
@@ -22,8 +23,8 @@
       },
       {
         "pagePath": "pages/money/money",
-        "text": "金币记录",
-        "iconPath": "/images/icon_transaction.jpg"
+        "text": "问卷设计",
+        "iconPath": "/images/design.jpg"
       },
       {
         "pagePath": "pages/person_center/person_center",

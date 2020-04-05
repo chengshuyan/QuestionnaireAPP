@@ -7,9 +7,9 @@ Page({
     honest_level:25,
     gold_coin:120,
     imgUrls: [
-      '/images/icon_hall.jpg',
-      '/images/icon_honey_pink.jpg',
-      '/images/icon_honey_blue.jpg'
+      '/images/questionnaire.png',
+      '/images/questionnaire.png',
+      '/images/questionnaire.png'
     ],
     indicatorDots: true, //是否显示面板指示点
     autoplay: true, //是否自动切换
@@ -56,19 +56,7 @@ goto_my_questionnaire:function(event){
       url: url
     })
   },
-  goto_goldpage: function (event) {
-    const number = event.target.id;
-    const url = "/pages/goldpage"+number+"/goldpage"+number;//得到页面url 
-    wx.navigateTo({
-      url: url
-    })
-  },
-  goto_honest_recoding: function (event) {
-    const url = "/pages/honest_recoding/honest_recoding" ;
-    wx.navigateTo({
-      url: url
-    })
-  },
+
   durationChange: function (e){
   }
 })

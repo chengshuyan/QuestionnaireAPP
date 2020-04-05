@@ -1,1 +1,108 @@
 /* pages/person_center/person_center.wxss */
+.page
+{
+  width:100%;
+  height:100%;
+}
+
+.text{
+  color: #000000;
+  line-height: 10rpx;
+  font-size: 28rpx;
+}
+.text_title{
+  color: #000000;
+  line-height: 10rpx;
+  font-size: 36rpx;
+}
+.text_number{
+  color: #f58403;
+  font-weight:bold;
+  line-height: 10rpx;
+  font-size: 36rpx;
+}
+
+.top{
+  height: 160rpx;
+  width:100%;
+  background:rgb(165, 205, 252);
+  padding-top: 60rpx;
+  display: block;
+}
+ .userinfo{
+    padding-bottom: 10rpx;
+    float: left;
+ }              
+ .image{
+      width: 120rpx;
+      height:120rpx;
+      margin: 10rpx;
+      border-radius: 50%;
+      border: 2rpx #D0D0D0 solid;
+}
+
+.name{
+    padding-top: 60rpx;
+    padding-left: 10rpx;
+    color: #FFFFFF;
+    font-size: 32rpx;
+    float: left;
+}
+
+ .notice{
+      color: #D8D8D8;
+      font-size: 24rpx;
+ }
+
+.number{
+        font-size: 30rpx;
+        color: #FFFFFF;
+        font-weight: bold;
+}
+
+.a-line{
+      border: none;
+      display: inline;
+      font-size: 32rpx;
+      color: #FFFFFF;
+      text-decoration:underline;
+}
+
+.container{
+  margin-top: 20rpx;
+  background:#FFFFFF;
+  font-size:30rpx;
+}  
+
+.row{
+    padding: 0rpx 36rpx;
+    border-bottom: 2rpx #E8E8E8 solid;
+    height: 80rpx;
+    line-height: 80rpx;
+}
+
+.img {
+      float:left;
+      width: 60rpx;
+      height: 60rpx;
+      padding-top:14rpx;
+}
+
+.name1 {
+  float:left;
+}
+
+.right {
+    float: right;
+    color: #E8E8E8;
+    line-height:80rpx;
+}
+.left {
+    width:80%;
+    line-height:80rpx;
+}
+
+.background
+{
+  background-color:#E8E8E8;
+}

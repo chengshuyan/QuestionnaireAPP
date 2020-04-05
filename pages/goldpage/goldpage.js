@@ -1,20 +1,15 @@
-// pages/person_center/person_center.js
+// pages/goldpage/goldpage.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    level: 5,
-    liveness: 1500,
-    honest_level: 25,
-    gold_coin: 120,
-    username:"铠甲琵琶",
-    something:"It is funny."
-  },
 
+  },
   goto_goldpage: function (event) {
-    const url = "/pages/goldpage/goldpage";//得到页面url 
+    const number = event.target.id;
+    const url = "/pages/goldpage" + number + "/goldpage" + number;//得到页面url  
     wx.navigateTo({
       url: url
     })
@@ -25,7 +20,6 @@ Page({
       url: url
     })
   },
-  
   /**
    * 生命周期函数--监听页面加载
    */
